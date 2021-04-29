@@ -1,0 +1,26 @@
+.button{
+    background: #4E81EE;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.7px;
+    padding: 10px 0px;
+    border: 0px;
+    transition: all .5s;
+}
+
+.button:focus, .button:hover{
+    box-shadow: 0 0 5px #999;
+    border-radius: 5px;
+}
+
+.button:focus{
+    transition: all .2s;
+    outline: none;
+    box-shadow: 0 0 5px #000, inset 0 0 10px #fff;
+
+}

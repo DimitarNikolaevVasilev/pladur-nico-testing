@@ -1,0 +1,6 @@
+.HeaderContainer{
+    width: 100%;
+}
+.HeaderContainer div{
+    display: inline-block;
+}
